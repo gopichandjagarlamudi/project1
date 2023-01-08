@@ -30,7 +30,7 @@ body {
     font-size: 18px;
     color : #E5E7EB
   }
-  .hero {
+  .one {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -61,16 +61,15 @@ body {
     height: 250px;
   }
 
-.about {
+.two {
     display: flex;
-    flex-direction: column; 
-    background-color: #eee;
+    flex-direction: column;
     height: 300px;
     align-items: center;
   }
 
 
-.about h2 {
+.two h2 {
     display: flex;
     border : 5px solid #ffcc5c;
     justify-content: center;
@@ -90,20 +89,16 @@ body {
   border : 5px solid #ffcc5c;
 
 }
-  services {
+.three {
     background-color: #eee;
     height: 200px;
-  }
-
-.services h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 6;
+    border : 5px solid #ffcc5c;
   }
 
 .contact {
-    background-color: #eee;
     height: 200px;
   }
 
@@ -113,7 +108,7 @@ body {
     justify-content: center;
     line-height: 6;
   }
-  footer {
+  .footer {
     background-color: #777;
     height: 40px;
   }
