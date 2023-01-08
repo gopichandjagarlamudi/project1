@@ -138,11 +138,12 @@ body {
   .footer {
     display: flex;
     justify-content: center;
-    background-color: #777;
+    background-color: #1F2937;
     height: 40px;
   }
 
 .footer p {
     margin: 0 auto;
+    color : white;
     line-height: 1.7;
   }
