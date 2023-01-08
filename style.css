@@ -98,16 +98,41 @@ body {
     border : 5px solid #ffcc5c;
   }
 
-.contact {
-    height: 200px;
+.four {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 200px;
+  border : 5px solid #ffcc5c;
   }
 
-.contact h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 6;
+.sub_four{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color:#3882F6;
+  border : 5px solid #ffcc5c;
+  width: 1000px;
+  border-radius: 20px;
+}
+
+.metasub1_four {
+    display : flex;
+    flex-direction: column;
+    color:white;
+    border : 5px solid #ffcc5c;
+    height: 100px;
+   
   }
+
+.metasub2_four {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+    border : 5px solid #ffcc5c;
+  }  
+
   .footer {
     background-color: #777;
     height: 40px;
